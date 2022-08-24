@@ -1,0 +1,51 @@
+.form-container {
+	grid-row: 2;
+	grid-column: 2/-1;
+	display: grid;
+	grid-template-columns: 0.1fr 0.1fr 5fr;
+	grid-template-rows: 0.1fr 0.1fr;
+	align-items: center;
+	margin-top: 0.5rem;
+}
+
+.arrow {
+	grid-column: 1;
+	margin: 0 0.3rem 0 0.5rem;
+}
+
+.tilde {
+	grid-column: 2;
+	color: #40c5d1;
+	font-size: 1.3rem;
+}
+
+input {
+	background: #1e1e1e;
+	border: #1e1e1e;
+	color: white;
+	caret-color: transparent;
+	font-size: 1rem;
+	outline: none;
+	margin-left: 0.5rem;
+	caret-color: #9c9d9d;
+}
+
+.files-container {
+	grid-row: 3;
+	grid-column: 2/-1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.err {
+	grid-row: 2;
+	grid-column: 2/-1;
+	color: white;
+	font-size: 0.9rem;
+	margin-top: 0.3rem;
+	align-self: center;
+}
+
+.none {
+	display: none;
+}
